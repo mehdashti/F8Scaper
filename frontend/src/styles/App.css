@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.selectable-tags {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.selectable-tags select {
+  width: 100%;
+  max-width: 600px;
+  margin: 10px 0;
+}
+
+.currency-data {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.channel-table {
+  margin: 20px 0;
+}
+
+.channel-table h3 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
