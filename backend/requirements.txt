@@ -1,3 +1,7 @@
-flask
-flask-cors
-playwright
+Flask==2.3.2
+Flask-CORS==3.0.10
+playwright==1.37.0
+playwright-stealth==1.0.6
+beautifulsoup4==4.12.2
+lxml==4.9.3
+urllib3==2.0.3
